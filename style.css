@@ -1,0 +1,211 @@
+/* BODY TO MAKE IT CENTER */
+html,
+body {
+    background-color: #FAFAFA;
+    height: auto;
+    width: 510px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+/* SUDOKU GAME NAME STYLE */
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+table {
+    border: 1px solid #000000;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+}
+/* NUMBER STYLING */
+input {
+    color: #000000;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    background-color: #ffffff;
+    outline: none;
+}
+/* INSIDE 3x3 BOX SPLITTING TOP-RIGHT-BOTTOM-LEFT */
+#r1c1,
+#r1c2,
+#r1c3,
+#r1c4,
+#r1c5,
+#r1c6,
+#r1c7,
+#r1c8,
+#r1c9,
+#r4c1,
+#r4c2,
+#r4c3,
+#r4c4,
+#r4c5,
+#r4c6,
+#r4c7,
+#r4c8,
+#r4c9,
+#r7c1,
+#r7c2,
+#r7c3,
+#r7c4,
+#r7c5,
+#r7c6,
+#r7c7,
+#r7c8,
+#r7c9{
+    border-top: 4px solid #000000;
+}
+
+#r1c3,
+#r2c3,
+#r3c3,
+#r4c3,
+#r5c3,
+#r6c3,
+#r7c3,
+#r8c3,
+#r9c3,
+#r1c6,
+#r2c6,
+#r3c6,
+#r4c6,
+#r5c6,
+#r6c6,
+#r7c6,
+#r8c6,
+#r9c6,
+#r1c9,
+#r2c9,
+#r3c9,
+#r4c9,
+#r5c9,
+#r6c9,
+#r7c9,
+#r8c9,
+#r9c9{
+    border-right: 4px solid #000000;
+}
+
+#r1c1,
+#r2c1,
+#r3c1,
+#r4c1,
+#r5c1,
+#r6c1,
+#r7c1,
+#r8c1,
+#r9c1,
+#r1c4,
+#r2c4,
+#r3c4,
+#r4c4,
+#r5c4,
+#r6c4,
+#r7c4,
+#r8c4,
+#r9c4,
+#r1c7,
+#r2c7,
+#r3c7,
+#r4c7,
+#r5c7,
+#r6c7,
+#r7c7,
+#r8c7,
+#r9c7 {
+    border-left: 4px solid #000000;
+}
+
+#r3c1,
+#r3c2,
+#r3c3,
+#r3c4,
+#r3c5,
+#r3c6,
+#r3c7,
+#r3c8,
+#r3c9,
+#r6c1,
+#r6c2,
+#r6c3,
+#r6c4,
+#r6c5,
+#r6c6,
+#r6c7,
+#r6c8,
+#r6c9,
+#r9c1,
+#r9c2,
+#r9c3,
+#r9c4,
+#r9c5,
+#r9c6,
+#r9c7,
+#r9c8,
+#r9c9{
+    border-bottom: 4px solid #000000;
+}
+
+/* START BUTTON STYLE */
+.myButton {
+	box-shadow: 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 4px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* RESTART BUTTON STYLE */
+.myButton1 {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 4px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
